@@ -2,7 +2,10 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">
+        <img class='header-profile-image' src="/images/ryan.png" />
+        {{ site.title }}
+    </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,11 +17,9 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class='page-link' href='/services.html'>services</a>
+        <a class='page-link' href='/blog.html'>articles</a>
+        <a class='page-link' href='/about.html'>speaking</a>
       </div>
     </nav>
 
