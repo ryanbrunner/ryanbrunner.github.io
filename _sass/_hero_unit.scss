@@ -1,0 +1,12 @@
+.hero-unit {
+    padding: 30px;
+    color: white;
+    background-image: url("/images/headshot.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #2e2a27;
+    height: 200px;
+    .hero-about {
+        width: 50%;
+    }
+}

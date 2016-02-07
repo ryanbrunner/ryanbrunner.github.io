@@ -4,6 +4,27 @@ layout: default
 
 <div class="home">
 
+  <div class='hero-unit'>
+      <div class='hero-about'>
+        <h1>Hi, I'm Ryan.</h1>
+        <p>
+            I'm a web developer, agile coach, and jack-of-all-trades from Toronto. I'm here to help
+            your people, products and process scale.
+        </p>
+      </div>
+  </div>
+  
+  <div class='content'>
+    <h1>Recent Articles</h1>
+    <div class='article-preview-list'>
+    {% for post in site.posts %}
+        <div class='article-preview'>
+            <div class='article-preview-title'>{{ post.title }}</div>
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

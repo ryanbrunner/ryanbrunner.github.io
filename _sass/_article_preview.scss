@@ -1,0 +1,16 @@
+.article-preview {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    border: solid 1px $grey-color-light;
+    height: 150px;
+    padding: $spacing-unit;
+   
+   .article-preview-title {
+       font-size: 1.5em;
+   }
+}
+
+.article-preview-list {
+    overflow: hidden;
+}
