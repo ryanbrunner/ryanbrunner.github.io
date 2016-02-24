@@ -1,0 +1,13 @@
+.service {
+  padding: $spacing-unit;
+  &.service-coaching {
+    background-color: $secondary-color;
+  }
+  &.service-consulting {
+    background-color: $tertiary-color;
+  }
+  border-bottom: 5px solid $grey-color-dark;
+  &:first-child {
+    border-top: 5px solid $grey-color-dark;
+  }
+}

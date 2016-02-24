@@ -17,6 +17,8 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #ff5014;
+$secondary-color:  #47b8e0;
+$tertiary-color:   #ffc952;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -27,7 +29,6 @@ $content-width:    800px;
 
 $on-palm:          500px;
 $on-laptop:        800px;
-
 
 
 // Use media queries like this:
@@ -51,4 +52,6 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting",
         "hero_unit",
-        "article_preview";
+        "article_preview",
+        "service",
+        "contact_cta";

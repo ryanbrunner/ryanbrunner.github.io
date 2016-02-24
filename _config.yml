@@ -17,5 +17,7 @@ url: "http://ryanbrunner.ca" # the base hostname & protocol for your site
 twitter_username: ryanbrunner
 github_username:  ryanbrunner
 
+gems: [bourbon, neat]
+
 # Build settings
 markdown: kramdown
