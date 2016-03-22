@@ -1,13 +1,13 @@
 .service {
   padding: $spacing-unit;
   &.service-coaching {
-    background-color: $secondary-color;
+    h2 { color: $secondary-color; }
   }
   &.service-consulting {
-    background-color: $tertiary-color;
+    h2 { color: $tertiary-color; }
   }
-  border-bottom: 5px solid $grey-color-dark;
+  border-bottom: 5px solid $grey-color-light;
   &:first-child {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $grey-color-light;
   }
 }
